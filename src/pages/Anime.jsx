@@ -26,7 +26,7 @@ const Anime = () => {
 
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
-    });
+    }, []);
  
     useEffect(() => {
         if (animesAreLoading) return;
