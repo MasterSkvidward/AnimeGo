@@ -1,0 +1,57 @@
+.navbar {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    font-size: 16px;
+    font-weight: 300;
+    
+    padding: 0px 0px;
+}
+
+.navbar__logo {
+    padding: 5px 0px;
+    margin-right: 23px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__links{
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.navbar__link {
+    padding: 10px 16px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.navbar__link:hover {
+    color: rgb(205, 204, 204);
+}
+
+.navbar__login {
+    position: relative;
+}
+
+.navbar__search {
+    background-color: #fff;
+    display: flex;
+    width: 360px;
+}
+
+.navbar__loupe {
+    align-self: center;
+    margin: 0px 0px 0px 10px;
+}
+
+
+.navbar__loupe>img {
+    height: 20px;
+}

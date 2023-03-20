@@ -1,0 +1,36 @@
+.anime {
+    display: flex;
+    column-gap: 13px;
+    padding: 16px 0px;
+
+   
+}
+
+.body-anime {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    &__links {
+        display: flex;
+        column-gap: 3px;
+
+        li {
+            text-decoration: underline;
+        }
+
+        span {
+            margin: 0px 5px;
+        }
+    }
+
+    &__description {
+        line-height: 24px;
+    }
+
+    &__title {
+        color: #ff5c57;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}

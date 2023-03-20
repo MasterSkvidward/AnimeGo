@@ -1,0 +1,31 @@
+.info-row {
+}
+
+.info-row__block {
+    display: flex;
+
+    .title {
+        flex: 0 1 40%;
+    }
+}
+
+.value {
+    color: black;
+    display: inline-flex;
+    margin: 0px 0px 0px 5px;
+
+    &_link {
+        color: #ff5c57;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
+
+.value__block {
+
+}
+
+

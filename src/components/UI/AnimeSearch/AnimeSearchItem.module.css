@@ -1,0 +1,53 @@
+.anime {
+    display: flex;
+    column-gap: 8px;
+
+    padding: 10px 0px;
+}
+
+.anime__img {
+}
+
+.anime__img  img {
+    height: 70px;
+    width: 50px;
+}
+
+.anime__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.body__title_ru {
+    color: rgb(255, 92, 87);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.body__title_en {
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    margin: 0px 0px 5px 0px;
+}
+
+.body__info {
+
+}
+
+.body__links {
+    color: black;
+    font-weight: 400;
+
+    display: flex;
+    column-gap: 8px;
+}
+
+.body__links>span {
+   font-weight: 400;
+}
+
+.body__link {
+    text-decoration: underline;
+}

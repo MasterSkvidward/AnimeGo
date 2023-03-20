@@ -1,0 +1,33 @@
+.hiddenBtn {
+    display: none;
+    background-color: yellow;
+}
+
+.button {
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    z-index: 1000;
+
+    color: white;
+    background-color: rgba(51, 51, 51, 0.88);
+
+    font-size: 16;
+    text-align: center;
+    display: none;
+    align-items: center;
+    cursor: pointer;
+
+    height: 40px;
+    padding: 7px 15px;
+}
+
+.button::before {
+    color: white;
+    content: '▲';
+    margin-right: 8px;
+}
+
+.button:hover {
+    background-color: rgba(65, 64, 64, 0.88);
+}

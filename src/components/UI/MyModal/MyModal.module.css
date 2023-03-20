@@ -1,0 +1,26 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(21, 21, 21, 0.8);
+    width: 100vw;
+    height: 100vh;
+}
+
+.myModalContent {
+    padding: 25px;
+}
+
+.myModalContent {
+    user-select: none;
+}
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}

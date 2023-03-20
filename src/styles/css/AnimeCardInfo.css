@@ -1,0 +1,8 @@
+.anime-info {
+  color: rgba(115, 113, 113, 0.8);
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+  padding: 15px 0px;
+}

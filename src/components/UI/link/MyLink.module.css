@@ -1,0 +1,13 @@
+.myLink {
+    color: #212529;;
+    font-size: 13px;
+    margin: 8px 16px;
+}
+
+.myLink:hover {
+    color: #ff5c57 !important; 
+}
+
+.myLink:visited {
+    color: #212529;
+}

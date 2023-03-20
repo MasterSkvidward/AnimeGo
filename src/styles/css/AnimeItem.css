@@ -1,0 +1,31 @@
+.anime {
+  display: flex;
+  -moz-column-gap: 13px;
+       column-gap: 13px;
+  padding: 16px 0px;
+}
+
+.body-anime {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.body-anime__links {
+  display: flex;
+  -moz-column-gap: 3px;
+       column-gap: 3px;
+}
+.body-anime__links li {
+  text-decoration: underline;
+}
+.body-anime__links span {
+  margin: 0px 5px;
+}
+.body-anime__description {
+  line-height: 24px;
+}
+.body-anime__title {
+  color: #ff5c57;
+  font-size: 20px;
+  font-weight: 400;
+}

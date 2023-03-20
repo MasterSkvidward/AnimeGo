@@ -1,0 +1,73 @@
+.animego__links {
+  margin: 8px 0px !important;
+}
+.animego__anime {
+  background-color: #fff;
+  padding: 12px 16px;
+  margin: 0px 0px 15px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.more-btn {
+  background-color: rgb(255, 92, 87);
+  color: #fff;
+  line-height: 24px;
+  display: inline-flex;
+  padding: 6px 12px;
+  align-self: center;
+}
+
+.carousel {
+  width: 100vw;
+  padding: 16px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.133);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.133);
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.carousel__title {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+  display: inline-block;
+  height: 50px;
+  padding: 0px 0px 2px 0px;
+  margin: 0px 0px 20px 0px;
+}
+.carousel__title:hover {
+  border-bottom: 2.5px solid rgb(0, 0, 0);
+  width: -moz-max-content;
+  width: max-content;
+}
+.carousel__arrow {
+  border: solid black;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  align-self: center;
+  height: 20px;
+  width: 20px;
+}
+.carousel .left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.carousel .right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.new-anime {
+  display: flex;
+  flex-direction: column;
+  max-width: 860px;
+  margin: 50px 0px 50px 0px;
+}
+.new-anime__title {
+  font-size: 32px;
+  font-weight: 500;
+}

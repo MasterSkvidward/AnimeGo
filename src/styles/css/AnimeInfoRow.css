@@ -1,0 +1,18 @@
+.info-row__block {
+  display: flex;
+}
+.info-row__block .title {
+  flex: 0 1 40%;
+}
+
+.value {
+  color: black;
+  display: inline-flex;
+  margin: 0px 0px 0px 5px;
+}
+.value_link {
+  color: #ff5c57;
+}
+.value_link:hover {
+  text-decoration: underline;
+}

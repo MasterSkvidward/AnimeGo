@@ -1,0 +1,33 @@
+.animeRow {
+    display: flex;
+    column-gap: 30px;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 290px;
+    scroll-behavior: smooth;
+}
+
+.animeRow__item {
+    height: 290px;
+    width: 162px;
+    display: flex;
+    flex-direction: column;
+   
+   
+
+}
+
+.animeRow__title,  .animeRow__title:visited{
+    color: rgb(255, 92, 87) !important;
+    font-size: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    padding: 16px 0px;
+}
+
+.animeRow__title:hover {
+text-decoration: underline;
+}
