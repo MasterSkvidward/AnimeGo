@@ -4,6 +4,7 @@ import Error from "../pages/Error"
 import AnimeIdPage from '../pages/AnimeIdPage';
 
 export const publicRoutes = [
+    {path: '/', element: <Animego/>},
     {path: '/animego', element: <Animego/>},
     {path: '/error', element: <Error/>},
     {path: '/anime', element: <Anime/> },

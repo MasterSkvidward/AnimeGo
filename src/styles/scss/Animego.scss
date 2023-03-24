@@ -10,9 +10,7 @@
         flex-direction: column;
  
         // margin: 0px 15px;
-        
     }
-    
 }
 
 .more-btn {
@@ -80,8 +78,8 @@
 .new-anime {
     display: flex;
     flex-direction: column;
-    max-width: 860px;
-    margin: 50px 0px 50px 0px;
+    // max-width: 860px;
+    margin: 50px 0px;
 
     &__title {
         font-size: 32px;

@@ -64,8 +64,7 @@
 .new-anime {
   display: flex;
   flex-direction: column;
-  max-width: 860px;
-  margin: 50px 0px 50px 0px;
+  margin: 50px 0px;
 }
 .new-anime__title {
   font-size: 32px;

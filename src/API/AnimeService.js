@@ -31,14 +31,12 @@ export default class AnimeService {
                 }
             });
 
-        console.log(response.data);
         return [response.data.data.slice(0, amount), response.data.pagination.items.total];    
     }
 
     static async getAnimeFullById(id) {
         const response = await axios.get(`https://api.jikan.moe/v4/anime/${id}/full`);
 
-        console.log(response.data);
         return response.data.data;    
     }
 
@@ -54,7 +52,6 @@ export default class AnimeService {
                 }
             });
 
-        console.log(response.data);
         return response.data.data;   
     }
 }

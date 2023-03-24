@@ -9,11 +9,10 @@ const AppRouter = () => {
                 <Route
                     path={route.path}
                     element={route.element}
-                    rest={route.rest}
                     key={route.path}  
                 />
             )}
-            <Route path="*" element={<Navigate replace to='/error'/>}></Route>
+            <Route path="/*" element={<Navigate to='/error' replace/>}></Route>
        </Routes>
     );
 }

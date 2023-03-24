@@ -4,6 +4,7 @@ import '../../../styles/css/Anime.css'
 
 const MySelect = ({sortType, onChange, options}) => {
     const [value, setValue] = useState(options[0].name);
+    const [selectedOptionNumber, setSelectedOptionNumber] = useState(0);
     const [isVisible, setIsVisible] = useState(false);
     const MySelect = useRef();
 
@@ -16,10 +17,8 @@ const MySelect = ({sortType, onChange, options}) => {
         return () => document.removeEventListener("mousedown",  handleDocumentClick);
     }, [])
     
-
     function handlerOptionClick(e) {
-        e.target.parentNode.querySelectorAll('div').forEach(element => element.classList.remove(cl.active));
-        e.target.classList.add(cl.active)
+        setSelectedOptionNumber(Number(e.target.dataset.number));
         onChange(e.target.dataset.value);
         setValue(e.target.dataset.name);
         setIsVisible(!isVisible);
@@ -35,11 +34,12 @@ const MySelect = ({sortType, onChange, options}) => {
             <div className={isVisible? cl.MySelect__options : [cl.MySelect__options, cl.invisible].join(' ')}>
                     {options.map((option, index) => 
                         <div 
-                            className={index ? cl.MySelect__option : [cl.MySelect__option, cl.active].join(' ')}
+                            className={selectedOptionNumber === index ? [cl.MySelect__option, cl.active].join(' ') : cl.MySelect__option}
                             key={option.value}
                             onClick={handlerOptionClick}
                             data-name={option.name}
                             data-value={option.value}
+                            data-number={index}
                             >
                             {option.name}
                         </div>
